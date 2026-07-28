@@ -33,7 +33,7 @@ Aluno em desenvolvimento de sistemas
   <a href="mailto:ivesao@gmail.com?subject=Vi+seu+perfil+no+GIThub"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-<svg viewBox="-16 -32 880 192" width="880" height="192" xmlns="http://www.w3.org/2000/svg">
+![Contribution snake (dark)](./dist/github-contribution-grid-snake-dark.svg)
 
 
 
