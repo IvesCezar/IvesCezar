@@ -33,27 +33,9 @@ Aluno em desenvolvimento de sistemas
   <a href="mailto:ivesao@gmail.com?subject=Vi+seu+perfil+no+GIThub"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-name: Generate GitHub contribution snake
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # diário à meia-noite UTC
-  workflow_dispatch:
-  push:
-    branches:
-      - main
 
-permissions:
-  contents: write
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Generate contribution snake
         uses: Platane/snk@v3
