@@ -33,7 +33,45 @@ Aluno em desenvolvimento de sistemas
   <a href="mailto:ivesao@gmail.com?subject=Vi+seu+perfil+no+GIThub"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-![Snake animation](https://github.com/IvesCezar/IvesCezar/blob/output/github-contribution-grid-snake-dark.svg)
+name: Generate GitHub contribution snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # diário à meia-noite UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          # Use seu nome de usuário GitHub para agendamentos; github.actor será 'github-actions' em runs agendados
+          github_user_name: IvesCezar
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit generated SVGs
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "chore(snake): update contribution snake"
+          add: "dist/*.svg"
+          push: true
 
 
 
