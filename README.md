@@ -37,37 +37,4 @@ Aluno em desenvolvimento de sistemas
 
 
 
-      - name: Generate contribution snake
-        uses: Platane/snk@v3
-        with:
-          # Use seu nome de usuário GitHub para agendamentos; github.actor será 'github-actions' em runs agendados
-          github_user_name: IvesCezar
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Commit generated SVGs
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: github-actions
-          author_email: github-actions@github.com
-          message: "chore(snake): update contribution snake"
-          add: "dist/*.svg"
-          push: true
-
-
-
-<!--
-**IvesCezar/IvesCezar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
