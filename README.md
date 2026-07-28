@@ -1,17 +1,30 @@
-
-
-
-<h2 align="center">👨‍💻 Ives Cezar</h2>
 <p align="center">
-Aluno em desenvolvimento de sistemas
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3500&pause=1000&color=4FC3F7&center=true&vCenter=true&width=700&lines=Olá,+eu+sou+Ives+Cezar;Desenvolvedor+em+formação;Apaixonado+por+Tecnologia;Sempre+aprendendo+algo+novo"/>
+
+</p>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode&perline=5"/>
+</p>
+
+
+<h3 align="center">
+💻 Estudante de Desenvolvimento de Sistemas
+</h3>
+
+<p align="center">
+Buscando evoluir como Desenvolvedor Full Stack.
 </p>
 
 ---
 
-### 🚀 Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python" />
-</p>
+## 🚀 Sobre mim
+
+- 🎓 Estudante de Desenvolvimento de Sistemas
+- 🌱 Atualmente aprendendo **Python, JavaScript e Banco de Dados**
+- 💡 Interesse em Desenvolvimento Web
+- 📍 Brasil
+
 
 ---
 
