@@ -17,12 +17,12 @@ Aluno em desenvolvimento de sistemas
 
 ### 📊 Estatísticas
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felipecsousa2000&show_icons=true&theme=radical&count_private=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=felipecsousa2000&theme=radical" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=IvesCezar&show_icons=true&theme=radical&count_private=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=IvesCezar&theme=radical" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipecsousa2000&layout=compact&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IvesCezar&layout=compact&theme=radical" />
 </p>
 
 ---
