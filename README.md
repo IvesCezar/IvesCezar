@@ -32,7 +32,19 @@ Aluno em desenvolvimento de sistemas
   <a href="https://www.linkedin.com/in/ives-cezar-520a4917b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:ivesao@gmail.com?subject=Vi+seu+perfil+no+GIThub"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+- name: Generate contribution snake SVGs
+    uses: Platane/snk@v3
+    with:
+      github_user_name: IvesCezar
+      outputs: |
+        output/github-contribution-grid-snake.svg
+        output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+  - name: Commit generated SVGs
+    uses: EndBug/add-and-commit@v9
+    with:
+      message: 'Generate contribution snake animation'
+      add: 'output/*.svg'
 
 
 
